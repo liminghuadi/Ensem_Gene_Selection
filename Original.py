@@ -132,36 +132,8 @@ def classification(clt, dataset, y, kflod):
 
     return acc, f1, precision, recall
 
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\aml.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\arcenc_train.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\Breast.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\breast1.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\CNS.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\Colon.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\colonbreast.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\CrohnDisease.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\CrohnDisease1.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\CrohnDisease2.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\DLBCL.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\GCM.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\Glioma.arff'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\HuntingtonDisease.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\Leukemia.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\Leukemia_3.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\Leukemia_4.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\Lung.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\Lung_5.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\Lymphoma.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\Lymphoma_3.arff'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\Madelon_train.arff'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\MLL.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\Myeloma.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\N_A.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\Ovarian.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\Prostate.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\Prostate.sboner.csv'
-# filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\Prostate.singh.csv'
-filepath = r'C:\Users\xiaoshi\Desktop\树模型\data\data\SRBCT.csv'
+
+filepath = r"\data\Ovarian.csv"
 
 
 file, tmpfile = os.path.split(filepath)

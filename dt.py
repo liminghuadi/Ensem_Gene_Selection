@@ -133,36 +133,12 @@ def classification(clt, dataset, y, kflod):
 
     return acc, f1, precision, recall
 
-filepath = [r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\aml.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\arcenc_train.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\Breast.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\breast1.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\CNS.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\Colon.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\colonbreast.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\CrohnDisease.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\CrohnDisease1.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\CrohnDisease2.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\DLBCL.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\GCM.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\Glioma.arff',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\HuntingtonDisease.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\Leukemia.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\Leukemia_3.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\Leukemia_4.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\Lung.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\Lung_5.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\Lymphoma1.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\Lymphoma_3.arff',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\Madelon_train.arff',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\MLL.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\Myeloma.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\N_A.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\Ovarian.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\Prostate.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\Prostate.sboner.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\Prostate.singh.csv',
-r'C:\\Users\\xiaoshi\\Desktop\\树模型\\data\\data\\SRBCT.csv'
+filepath = [
+r".\data\HuntingtonDisease.csv",
+r".\data\Lung_5.csv",
+r"\data\Lymphoma1.csv",
+r"\data\Lymphoma_3.arff",
+r"\data\Ovarian.csv"
 ]
 
 # 十折交叉验证
